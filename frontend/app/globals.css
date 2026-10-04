@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #07131d;
+  color: #edf0f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-uaal-gold {
+  color: #d9b45d;
+}
+
+.text-uaal-muted {
+  color: #a3afbd;
+}
+
+.border-uaal-gold {
+  border-color: rgba(217, 180, 93, 0.7);
+}
+
+.bg-uaal-soft {
+  background: #101b27;
+}
