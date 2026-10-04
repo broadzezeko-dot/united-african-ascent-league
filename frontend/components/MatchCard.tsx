@@ -9,7 +9,7 @@ type Match = {
 export function MatchCard({ match }: { match: Match }) {
   return (
     <div className="rounded-2xl border border-uaal-gold/30 bg-uaal-soft/90 p-4 shadow-gold">
-      <div className="mb-2 flex items-center justify-between text-xs uppercase tracking-[0.18em] text-uaal-muted">
+      <div className="mb-2 flex items-center justify-between text-[10px] uppercase tracking-[0.18em] text-uaal-muted">
         <span>{match.status}</span>
         <span>{match.minute}</span>
       </div>
